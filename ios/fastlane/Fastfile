@@ -13,6 +13,13 @@
 # Uncomment the line if you want fastlane to automatically update itself
 # update_fastlane
 
+# match
+##  codesigning
+##    `fastlane match development`
+##    `fastlane match adhoc`
+##    `fastlane match enterprise`
+##    `fastlane match appstore`
+
 default_platform(:ios)
 
 platform :ios do

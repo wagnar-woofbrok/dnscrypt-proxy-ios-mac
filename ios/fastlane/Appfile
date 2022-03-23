@@ -1,5 +1,8 @@
 # app_identifier("[[APP_IDENTIFIER]]") # The bundle identifier of your app
-# apple_id("[[APPLE_ID]]") # Your Apple email address
+
+# Fill in apple_id, itc_team_id, team_id with your respective account info.
+#   apple_id("[[APPLE_ID]]") # Your Apple email address
+apple_id(ENV["APPLE_ID"])
 
 
 # For more information about the Appfile, see:
